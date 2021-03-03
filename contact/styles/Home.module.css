@@ -1,0 +1,8 @@
+.container {
+  min-height: 90vh;
+  width: 90%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 2rem;
+  background-image: linear-gradient(to right bottom,rgba(255,255,255, 0.5),rgba(255,255,255,0.3));
+}

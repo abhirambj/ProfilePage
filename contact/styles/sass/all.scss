@@ -1,0 +1,33 @@
+.responses {
+  .users {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px;
+    padding: 10px;
+    @media screen and (max-width:480px) {
+      grid-template-columns: 1fr;
+    }
+    .message {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.5)
+      );
+      padding: 10px;
+    }
+    span {
+      display: block;
+      padding: 5px 0;
+      &.user {
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 10px;
+      }
+    }
+  }
+  h1 {
+      text-align: center;
+      padding: 20px 0;
+  }
+}
